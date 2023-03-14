@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/portada"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¿Como te consideras?"
+                android:textColor="#F1EFEF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Valiente"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Leal"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ambicioso"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inteligente"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="¿Cual de estos es tu color favorito?"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rojo"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Amarillo"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Verde"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Azul"
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Estas en un examen y tu amigo esta copiando ¿Que harias?"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Despues del examen recriminas a tu amigo por su acto."
+                    android:textColor="@color/white"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/radioButton10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Es tu amigo no dirias nada y continuarias con tu examen."
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Se lo dirias al profesor para obtener puntos para tu casa."
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sigues con tu examen, lo importante son tus conocimientos."
+                    android:textColor="@color/white"
+                    />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="El profesor de defensa contra las artes oscuras os pide una redacción sobre las maldiciones imperdonables. Pero la mejor información esta en la seccion prohibida ¿Que harias?"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Colarme en la sección prohibida sin que me vean."
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pedir a alguien mas mayor que busque el libro por mi."
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pagar por el trabajo a un alumno mayor que yo y dejarme de complicaciones."
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton16"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Pedir a la bibliotecaria que me de acceso para buscar esa información."
+                    android:textColor="@color/white" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Un troll ataca el castillo ¿Que haces?"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/radioButton17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ir a dar caza al trol"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton18"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ayudo a poner a salvo a los mas pequeños"
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton19"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Voy a luchar contra el troll buscando alagos por mis actos."
+                    android:textColor="@color/white" />
+
+                <RadioButton
+                    android:id="@+id/radioButton20"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dejo que los profesores se ocupen del asunto, ellos estan mas preparados para esto"
+                    android:textColor="@color/white" />
+            </RadioGroup>
+            <Button
+                android:id="@+id/btn3"
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:text="Descubrir tu casa"
+                android:textColor="@color/white"
+                android:textColorHighlight="@color/white"
+                app:rippleColor="@color/black" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
